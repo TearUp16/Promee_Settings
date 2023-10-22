@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Settings_Promee.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Settings_Promee"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+         Title=""
+         ContentTemplate="{DataTemplate local:notifications}"
+         Route="notifications" />
+
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:LanguagePage}"
+        Route="LanguagePage" />
+
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:AboutPage}"
+        Route="AboutPage" />
+
+    <ShellContent
+        Title=""
+        ContentTemplate="{DataTemplate local:HelpPage}"
+        Route="HelpPage" />
+
+
+</Shell>
